@@ -17,6 +17,14 @@ At the end, you only need to dd the iso to your favorit usb drive or burn it on 
 ./build.sh
 ```
 
+#### Build iso using docker container
+
+The build can be done inside a docker container with extended privileges enabled.
+
+```bash
+docker run --privileged -it archlinux:latest /bin/bash
+```
+
 # Links
 
 * [Another archiso build script by Maurice Zhou](https://gitlab.com/m_zhou/archiso)
